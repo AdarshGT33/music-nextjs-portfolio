@@ -407,7 +407,7 @@ const World = dynamic(() => import("../components/ui/globe").then((m) => m.World
 
   return (
     <div className="flex w-full h-screen">
-      <div className="flex w-1/3 h-screen items-center justify-center">
+      <div className="flex w-1/3 h-screen items-center justify-end">
       <Card className="w-[350px]">
       <CardHeader>
         <CardTitle>Contact Us</CardTitle>
